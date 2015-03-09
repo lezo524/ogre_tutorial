@@ -11,3 +11,5 @@ Trello : https://trello.com/b/RimXIezl/ogre-tutorial
  * $(OGRE_HOME) : "(YOUR_PATH)\OgreSDK_vs12_v1-9-0_tag(dd30349ea667)"
 
 3. Enjoy the OGRE Tutorial...
+
+ * cmake -G "Visual Studio 12" (Your path of downloaded ogre_tutorial repo)
