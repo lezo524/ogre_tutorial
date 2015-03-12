@@ -25,7 +25,8 @@ set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /W4 /Zm256")
 if(MSVC)
   set(CMAKE_USE_RELATIVE_PATHS true)
   set(CMAKE_SUPPRESS_REGENERATION true)
-  add_definitions(-DUNICODE -D_UNICODE)
+  # for Unicode Project Setting
+  #add_definitions(-DUNICODE -D_UNICODE)
 
   cmake_policy(SET CMP0021 OLD) # NEW : not allow relative path but OLD is fine.  
   include_directories(";$(BOOST_ROOT);")
@@ -52,5 +53,6 @@ set(TUTORIAL_FOLDER "Tutorial")
 set(ETC_FOLDER "ETC") 
 
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
-set_property(TARGET init_blue_screen		PROPERTY FOLDER ${TUTORIAL_FOLDER})
+set_property(TARGET init_blue_screen			PROPERTY FOLDER ${TUTORIAL_FOLDER})
+set_property(TARGET mesh_load_by_scenemanager	PROPERTY FOLDER ${TUTORIAL_FOLDER})
 #SET_PROPERTY(TARGET builder 				PROPERTY FOLDER ${GOF_CREATIONAL})
