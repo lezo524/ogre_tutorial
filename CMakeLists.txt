@@ -56,4 +56,8 @@ set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 set_property(TARGET init_blue_screen			PROPERTY FOLDER ${TUTORIAL_FOLDER})
 set_property(TARGET mesh_load_by_scenemanager	PROPERTY FOLDER ${TUTORIAL_FOLDER})
 set_property(TARGET rotate_pitch_yaw_roll		PROPERTY FOLDER ${TUTORIAL_FOLDER})
+set_property(TARGET scale						PROPERTY FOLDER ${TUTORIAL_FOLDER})
+set_property(TARGET relative_translate			PROPERTY FOLDER ${TUTORIAL_FOLDER})
+set_property(TARGET relative_rotate				PROPERTY FOLDER ${TUTORIAL_FOLDER})
+
 #SET_PROPERTY(TARGET builder 				PROPERTY FOLDER ${GOF_CREATIONAL})
