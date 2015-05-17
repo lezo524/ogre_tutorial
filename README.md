@@ -15,15 +15,9 @@ Trello : https://trello.com/b/RimXIezl/ogre-tutorial
  * cmake -G "Visual Studio 12" (Your path of downloaded ogre_tutorial repo)
 
 Tutorial
-
 01. Init blue screen
-
 02. Mesh load by SceneManager
-
 03. Rotate - pitch, yaw, roll
-
 04. Scale
-
 05. Relative translate
-
 06. Relative rotate
